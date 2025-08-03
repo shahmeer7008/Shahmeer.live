@@ -18,7 +18,11 @@ type ProjectData = {
   demo: string;
   images: string[];
 };
-
+type PageProps = {
+  params: {
+    id: string;
+  };
+};
 const projectsData: Record<string, ProjectData> = {
 
   "ecommerce-platform": {
@@ -81,7 +85,7 @@ The application uses Prisma as an ORM for database operations, providing type-sa
   },
 }
 
-export default function Page({ params }: { params: { id: string } }) {
+export default function Page({ params }: PageProps) {
 
   const project = projectsData[params.id]
 
