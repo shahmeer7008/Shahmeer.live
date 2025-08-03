@@ -70,7 +70,8 @@ The application uses Prisma as an ORM for database operations, providing type-sa
   },
 }
 
-export default function ProjectDetail({ params }: { params: { id: string } }) {
+export default function Page({ params }: { params: { id: string } }) {
+
   const project = projectsData[params.id]
 
   if (!project) {

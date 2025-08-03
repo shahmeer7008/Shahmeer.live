@@ -44,10 +44,10 @@ export default function Contact() {
           >
             <Card className="glass-effect">
               <CardContent className="p-8">
-                <h2 className="text-2xl font-bold mb-6">Let's Work Together</h2>
+                <h2 className="text-2xl font-bold mb-6">Let&apos;s Work Together</h2>
                 <p className="text-muted-foreground leading-relaxed mb-6">
-                  I'm always interested in new opportunities, collaborations, and interesting projects. Whether you have
-                  a question, want to discuss a project, or just want to say hello, I'd love to hear from you.
+                  I&apos;m always interested in new opportunities, collaborations, and interesting projects. Whether you have
+                  a question, want to discuss a project, or just want to say hello, I&apos;d love to hear from you.
                 </p>
 
                 <div className="space-y-4">
@@ -80,7 +80,7 @@ export default function Contact() {
                   <span className="text-primary font-semibold">Available for new projects</span>
                 </div>
                 <p className="text-muted-foreground">
-                  I'm currently accepting new freelance projects and full-time opportunities. Let's discuss how we can
+                  I &apos;m currently accepting new freelance projects and full-time opportunities. Let&apos;s discuss how we can
                   work together to bring your ideas to life.
                 </p>
               </CardContent>
