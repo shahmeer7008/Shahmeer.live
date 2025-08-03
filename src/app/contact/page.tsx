@@ -20,7 +20,7 @@ export default function Contact() {
         >
           <h1 className="text-4xl sm:text-6xl font-bold mb-6">Get In Touch</h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Let's connect! Click on the branches of the tree below to explore different ways to reach me.
+            Let&apos;s connect! Click on the branches of the tree below to explore different ways to reach me.
           </p>
         </motion.div>
 
