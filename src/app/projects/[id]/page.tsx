@@ -8,6 +8,8 @@ import { ArrowLeft, ExternalLink, Github, Calendar } from "lucide-react"
 import Link from "next/link"
 import { ImageCarousel } from "@/components/image-carousel"
 import { notFound } from "next/navigation"
+import { use } from "react"
+
 type ProjectData = {
   title: string;
   date: string;
@@ -18,13 +20,14 @@ type ProjectData = {
   demo: string;
   images: string[];
 };
-type PageProps = {
-  params: {
-    id: string;
-  };
-};
-const projectsData: Record<string, ProjectData> = {
 
+type PageProps = {
+  params: Promise<{
+    id: string;
+  }>;
+};
+
+const projectsData: Record<string, ProjectData> = {
   "ecommerce-platform": {
     title: "E-Commerce Platform",
     date: "March 2024",
@@ -86,8 +89,9 @@ The application uses Prisma as an ORM for database operations, providing type-sa
 }
 
 export default function Page({ params }: PageProps) {
-
-  const project = projectsData[params.id]
+  // Use React's use() hook to await the params Promise
+  const resolvedParams = use(params)
+  const project = projectsData[resolvedParams.id]
 
   if (!project) {
     notFound()
