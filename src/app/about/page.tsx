@@ -51,14 +51,14 @@ export default function About() {
             <CardContent className="p-8">
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
-                  <h2 className="text-3xl font-bold mb-4">Hello, I'm Muhammad Shahmeer</h2>
+                  <h2 className="text-3xl font-bold mb-4">Hello, I&apos;m Muhammad Shahmeer</h2>
                   <p className="text-muted-foreground mb-4">
-                    I'm a creative developer with over 3 years of experience in building web applications that combine
+                    I&apos;m a creative developer with over 3 years of experience in building web applications that combine
                     beautiful design with robust functionality. My journey in tech started with curiosity and has
                     evolved into a passion for creating digital solutions that make a difference.
                   </p>
                   <p className="text-muted-foreground mb-6">
-                    When I'm not coding, you can find me exploring new technologies, contributing to open-source
+                    When I&apos;m not coding, you can find me exploring new technologies, contributing to open-source
                     projects, or sharing knowledge with the developer community. I believe in continuous learning and
                     staying updated with the latest trends in web development.
                   </p>

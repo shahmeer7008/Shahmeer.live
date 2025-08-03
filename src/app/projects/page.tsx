@@ -7,6 +7,31 @@ import { Button } from "@/components/ui/button"
 import { ExternalLink, Github, Eye } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+interface Project {
+  id: string;
+  title: string;
+  description: string;
+  image?: string;
+  github: string;
+  demo: string;
+  technologies: string[];
+}
+interface Project {
+  id: string;
+  title: string;
+  description: string;
+  image?: string;
+  github: string;
+  demo: string;
+  technologies: string[];
+  featured: boolean;
+}
+
+type ProjectCardProps = {
+  project: Project;
+  index: number;
+  featured?: boolean;
+};
 
 const projects = [
   {
@@ -126,7 +151,8 @@ export default function Projects() {
   )
 }
 
-function ProjectCard({ project, index, featured = false }: { project: any; index: number; featured?: boolean }) {
+
+function ProjectCard({ project, index, featured = false }: ProjectCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -167,7 +193,7 @@ function ProjectCard({ project, index, featured = false }: { project: any; index
           <p className="text-muted-foreground mb-4 text-sm">{project.description}</p>
 
           <div className="flex flex-wrap gap-2 mb-4">
-            {project.technologies.map((tech: string) => (
+            {project.technologies.map((tech) => (
               <Badge key={tech} variant="outline" className="text-xs">
                 {tech}
               </Badge>
@@ -191,5 +217,5 @@ function ProjectCard({ project, index, featured = false }: { project: any; index
         </CardContent>
       </Card>
     </motion.div>
-  )
+  );
 }

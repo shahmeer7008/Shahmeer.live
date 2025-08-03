@@ -62,7 +62,7 @@ export default function Experience() {
             My <span className="text-primary">Experience</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            A journey through my professional growth and the amazing teams I've worked with.
+            A journey through my professional growth and the amazing teams I &#39;ve worked with.
           </p>
         </motion.div>
 
