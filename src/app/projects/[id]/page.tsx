@@ -8,8 +8,19 @@ import { ArrowLeft, ExternalLink, Github, Calendar } from "lucide-react"
 import Link from "next/link"
 import { ImageCarousel } from "@/components/image-carousel"
 import { notFound } from "next/navigation"
+type ProjectData = {
+  title: string;
+  date: string;
+  description: string;
+  longDescription: string;
+  technologies: string[];
+  github: string;
+  demo: string;
+  images: string[];
+};
 
-const projectsData: Record<string, any> = {
+const projectsData: Record<string, ProjectData> = {
+
   "ecommerce-platform": {
     title: "E-Commerce Platform",
     date: "March 2024",
