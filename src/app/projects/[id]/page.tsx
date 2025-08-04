@@ -92,6 +92,7 @@ export default function Page({ params }: PageProps) {
   // Use React's use() hook to await the params Promise
   const resolvedParams = use(params)
   const project = projectsData[resolvedParams.id]
+  
 
   if (!project) {
     notFound()
