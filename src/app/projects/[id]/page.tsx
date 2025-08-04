@@ -94,7 +94,7 @@ export default function Page({ params }: PageProps) {
   const project = projectsData[resolvedParams.id]
 
   if (!project) {
-    notFound()
+    notFound() 
   }
 
   return (
