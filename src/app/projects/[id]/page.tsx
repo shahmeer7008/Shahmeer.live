@@ -28,29 +28,26 @@ type PageProps = {
 };
 
 const projectsData: Record<string, ProjectData> = {
-  "ecommerce-platform": {
-    title: "E-Commerce Platform",
-    date: "March 2024",
+  "megaBlogger-platform": {
+    title: "Mega Blogging Website",
+    date: "July 2025",
     description:
-      "A comprehensive e-commerce solution built with modern web technologies. Features include user authentication, product catalog, shopping cart, payment processing with Stripe, order management, and admin dashboard. The platform is designed to be scalable and maintainable with a focus on user experience.",
-    longDescription: `This e-commerce platform represents a full-stack solution designed to handle modern online retail needs. The project showcases advanced React patterns, state management, and integration with third-party services.
+      "A blogging Website in Next JS, React , TypeScript and Shad CN where one can write and publish blogs, can like and comment on a blog and can search blogs through filtering by category and trends",
+    longDescription: `This blogging platform represents a full-stack solution designed to handle blogs. The project showcases advanced React patterns, state management, and integration with third-party services.
 
 Key features include:
 • User authentication and authorization system
-• Dynamic product catalog with search and filtering
-• Shopping cart with persistent state
-• Secure payment processing via Stripe
-• Order tracking and management
-• Admin dashboard for inventory management
+• Search and filtering
+• Writing Blogs with persistent state
 • Responsive design optimized for all devices
-• SEO optimization for better search visibility
+• Like and Comments count
 
 The backend is built with Node.js and Express, utilizing MongoDB for data persistence. The application implements RESTful APIs and follows best practices for security and performance.`,
     technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS", "Express", "JWT"],
-    github: "https://github.com/shahmeer/ecommerce",
-    demo: "https://ecommerce-demo.vercel.app",
+    github: "https://github.com/shahmeer7008/Mega-Blogger-App",
+    demo: "https://mega-blogger-app.vercel.app/",
     images: [
-      "/placeholder.svg?height=600&width=800",
+      "/blog01.png?height=600&width=800",
       "/placeholder.svg?height=600&width=800",
       "/placeholder.svg?height=600&width=800",
       "/placeholder.svg?height=600&width=800",

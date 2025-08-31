@@ -7,45 +7,27 @@ import { Calendar, MapPin, Building } from "lucide-react"
 
 const experiences = [
   {
-    title: "Senior Full Stack Developer",
-    company: "TechCorp Solutions",
-    location: "Remote",
-    duration: "2023 - Present",
+    title: "Full Stack Intern",
+    company: "Pure Logics",
+    location: "Lahore",
+    duration: "July 2025 - Present",
     description:
-      "Leading development of scalable web applications using React, Next.js, and Node.js. Mentoring junior developers and implementing best practices.",
-    technologies: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "AWS"],
+      "Working as  Full Stack intern in Pure Logics and developing scalable web applications using React, Next.js, and Node.js.",
+    technologies: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "Azure"],
     color: "from-blue-500 to-purple-600",
   },
   {
-    title: "Frontend Developer",
-    company: "Digital Innovations",
-    location: "New York, NY",
-    duration: "2022 - 2023",
+    title: "Full Stack Developer",
+    company: "Fiver",
+    location: "Remote",
+    duration: "July 2025-present",
     description:
-      "Developed responsive web applications and improved user experience across multiple products. Collaborated with design team to implement pixel-perfect interfaces.",
-    technologies: ["React", "JavaScript", "Tailwind CSS", "Redux", "Jest"],
+      "Developing responsive web applications and improved user experience across multiple projects.",
+    technologies: ["React", "Next JS", "Tailwind CSS", "Redux", "Tyscript"],
     color: "from-green-500 to-blue-500",
   },
-  {
-    title: "Junior Web Developer",
-    company: "StartupXYZ",
-    location: "San Francisco, CA",
-    duration: "2021 - 2022",
-    description:
-      "Built and maintained company website and internal tools. Gained experience in full-stack development and agile methodologies.",
-    technologies: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
-    color: "from-orange-500 to-red-500",
-  },
-  {
-    title: "Web Development Intern",
-    company: "Local Agency",
-    location: "Los Angeles, CA",
-    duration: "2021",
-    description:
-      "Assisted in developing client websites and learned fundamental web development concepts. First professional experience in the tech industry.",
-    technologies: ["HTML", "CSS", "JavaScript", "WordPress"],
-    color: "from-purple-500 to-pink-500",
-  },
+  
+  
 ]
 
 export default function Experience() {

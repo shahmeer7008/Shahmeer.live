@@ -14,6 +14,7 @@ const contactInfo = [
     id: "email",
     icon: Mail,
     label: "Email",
+    
     value: "shahmeer@example.com",
     url: "mailto:shahmeer@example.com",
     position: [-2, 3, 0] as [number, number, number],

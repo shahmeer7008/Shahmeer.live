@@ -5,27 +5,27 @@ import { Card, CardContent } from "@/components/ui/card"
 
 const timelineData = [
   {
-    year: "2021",
-    title: "Started Programming Journey",
-    description: "Began learning web development with HTML, CSS, and JavaScript",
+    year: "2022",
+    title: "Started my bachelors in Software Engineering from  PUCIT",
+    description: "Began learning significant courses like Programming Fundamentals, OOP , DSA and web development with HTML, CSS, and JavaScript",
     color: "from-blue-400 to-blue-600",
   },
   {
-    year: "2022",
-    title: "First React Project",
-    description: "Built my first React application and fell in love with component-based architecture",
+    year: "2023",
+    title: "Teaching Assistant Role",
+    description: "Have been Teaching Assistant  of important courses like Programming Fundamentals, DSA and Algorithm Analysis in my university.Primary responsibilty was to assist professor in conducting labs,marking quizes and guiding srudents.",
     color: "from-green-400 to-green-600",
   },
   {
-    year: "2023",
+    year: "2024",
     title: "Full Stack Development",
-    description: "Expanded skills to backend development with Node.js and databases",
+    description: "Got hands on with MERN and Next JS and built exciting Projects in MERN and Next JS",
     color: "from-purple-400 to-purple-600",
   },
   {
-    year: "2024",
-    title: "Professional Growth",
-    description: "Working on complex projects and mentoring junior developers",
+    year: "2025",
+    title: "MERN Stack Intern",
+    description: "Working as MERN Stack Intern in Pure Logics ,one of the premium sofware houses of Pakistan.",
     color: "from-orange-400 to-orange-600",
   },
 ]

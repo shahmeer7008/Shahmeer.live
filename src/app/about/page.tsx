@@ -15,9 +15,9 @@ const skills = [
   "Python",
   "MongoDB",
   "PostgreSQL",
-  "AWS",
+  "Azure",
   "Docker",
-  "GraphQL",
+  "SQL",
   "Tailwind CSS",
 ]
 
@@ -53,7 +53,7 @@ export default function About() {
                 <div>
                   <h2 className="text-3xl font-bold mb-4">Hello, I&apos;m Muhammad Shahmeer</h2>
                   <p className="text-muted-foreground mb-4">
-                    I&apos;m a creative developer with over 3 years of experience in building web applications that combine
+                    I&apos;m a Software Engineer and Full Stack Developer with experties in MERN and Next JS and ASP .Net. I have some exciting self initiated Projects and Freelance Projects that combine
                     beautiful design with robust functionality. My journey in tech started with curiosity and has
                     evolved into a passion for creating digital solutions that make a difference.
                   </p>

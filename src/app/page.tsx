@@ -32,7 +32,7 @@ export default function Home() {
 
             <div className="text-xl md:text-2xl text-muted-foreground mb-8">
               <TypewriterEffect
-                words={["Creative Developer", "Visionary Coder", "Full Stack Engineer", "UI/UX Enthusiast"]}
+                words={["Software Engineer", "Full Stack Developer", "NEXT JS/ MERN Stack", "AI/ML Enthusiast"]}
               />
             </div>
 
@@ -42,8 +42,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.8 }}
               className="text-lg text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0"
             >
-              Crafting digital experiences with passion, precision, and a touch of magic. Transforming ideas into
-              elegant, functional solutions.
+              Engineering Full Stack end-to-end solutions with clarity, efficiency, and purpose
             </motion.p>
 
             <motion.div
@@ -86,14 +85,14 @@ export default function Home() {
         transition={{ duration: 0.8, delay: 1.5 }}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
       >
-        <motion.div
+        {/* <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Number.POSITIVE_INFINITY }}
           className="flex flex-col items-center text-muted-foreground"
         >
           <span className="text-sm mb-2">Scroll to explore</span>
           <ChevronDown className="h-5 w-5" />
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </div>
   )
