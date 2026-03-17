@@ -16,7 +16,6 @@ const certifications = [
     description: "Got hands on with backend development and APIs using Node.js, Express, MongoDB, and RESTful API design principles.",
     image: "/images/FreeCodeCamp.png?height=300&width=400",
     verifyUrl: "https://aws.amazon.com/verification",
-    downloadUrl: "/certificates/aws-saa.pdf",
     skills: ["Node.js", "Express", "MongoDB", "RESTful APIs"],
   },
   {
@@ -27,7 +26,6 @@ const certifications = [
     description: "Comprehensive ReactJS course covering fundamentals to advanced concepts, including hooks, state management, and component architecture.",
     image: "/images/react_Udemy.png?height=300&width=400",
     verifyUrl: "https://udemy-certificate.s3.amazonaws.com/pdf/UC-faadcbda-378d-4ab2-9028-8e00d330f1a3.pdf",
-    downloadUrl: "/certificates/gcp-pd.pdf",
     skills: ["ReactJS", "Tailwind CSS", "JavaScript", "UI/UX Design"],
   },
   {
@@ -38,7 +36,6 @@ const certifications = [
     description: "Covered supervised machine learning techniques for regression and classification tasks, including linear regression, logistic regression, and evaluation metrics.",
     image: "/images/ml.png?height=300&width=400",
     verifyUrl: "https://www.coursera.org/account/accomplishments/verify/02V725HIKQPE",
-    downloadUrl: "/certificates/meta-frontend.pdf",
     skills: ["Regression", "Classification", "Model Evaluation", "Scikit-learn"],
   },
   {
@@ -49,7 +46,6 @@ const certifications = [
     description: "Expertise in MongoDB database design and development",
     image: "/images/backend_meta.png?height=300&width=400",
     verifyUrl: "https://www.coursera.org/account/accomplishments/verify/EY7VN8KGG6FL",
-    downloadUrl: "/certificates/mongodb-dev.pdf",
     skills: ["Nodejs", "JavaScript", "API Development", "Express.js"],
   },
   {
@@ -60,7 +56,6 @@ const certifications = [
     description: "Proficiency in Python programming language, including syntax, data structures, and basic programming concepts.",
     image: "/images/python_meta.png?height=300&width=400",
     verifyUrl: "https://www.coursera.org/account/accomplishments/verify/2U985SS3P9T9",
-    downloadUrl: "/certificates/python-programming.pdf",
     skills: ["Python", "Data Structures", "Algorithms", "Object-Oriented Programming"],
   },
   {
@@ -71,7 +66,6 @@ const certifications = [
     description: "Fundamental skills in web development with HTML, CSS, and JavaScript, including responsive design and basic front-end development principles.",
     image: "/images/html_ibm.png?height=300&width=400",
     verifyUrl: "https://www.coursera.org/account/accomplishments/verify/3FG3QVH26NJP",
-    downloadUrl: "/certificates/html-css-javascript.pdf",
     skills: ["HTML", "CSS", "JavaScript", "Responsive Design"],
   },
   {
@@ -82,7 +76,6 @@ const certifications = [
     description: "Proficiency in Git version control system and GitHub platform for collaborative software development, including branching, merging, and pull requests.",
     image: "/images/git_ibm.png?height=300&width=400",
     verifyUrl: "https://www.coursera.org/account/accomplishments/verify/7FGFNRQWUTQY",
-    downloadUrl: "/certificates/git-github.pdf",
     skills: ["Git", "GitHub", "Version Control", "Collaboration"],
   },
 ]

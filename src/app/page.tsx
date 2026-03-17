@@ -4,7 +4,6 @@ import { motion } from "framer-motion"
 import { TypewriterEffect } from "@/components/typewriter-effect"
 import { FloatingParticles } from "@/components/floating-particles"
 import { Avatar3D } from "@/components/avatar-3d"
-import { ChevronDown } from "lucide-react"
 import Link from "next/link"
 
 export default function Home() {
