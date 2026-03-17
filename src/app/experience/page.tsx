@@ -7,25 +7,36 @@ import { Calendar, MapPin, Building } from "lucide-react"
 
 const experiences = [
   {
-    title: "Full Stack Intern",
-    company: "Pure Logics",
-    location: "Lahore",
-    duration: "July 2025 - Present",
-    description:
-      "Working as  Full Stack intern in Pure Logics and developing scalable web applications using React, Next.js, and Node.js.",
-    technologies: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "Azure"],
-    color: "from-blue-500 to-purple-600",
-  },
-  {
     title: "Full Stack Developer",
     company: "Fiver",
     location: "Remote",
-    duration: "July 2025-present",
+    duration: "Feb 2026-present",
     description:
       "Developing responsive web applications and improved user experience across multiple projects.",
-    technologies: ["React", "Next JS", "Tailwind CSS", "Redux", "Tyscript"],
+    technologies: ["React", "Next JS", "Tailwind CSS", "Redux", "TypeScript"],
     color: "from-green-500 to-blue-500",
   },
+  {
+    title: "AI Full Stack Developer",
+    company: "RemoteBase",
+    location: "Remote",
+    duration: "Sep 2025 - Feb 2026",
+    description:
+      "A freelance role where I leveraged LLMs, MERN , prompt engineering,  Gen AI and  Snapdev  to build full stack apps.",
+    technologies: ["MERN", "Next.js", "RAG", "Langchain", "Langgraph", "Prompt Engineering"],
+    color: "from-blue-500 to-purple-600",
+  },
+  {
+    title: "Full Stack Intern",
+    company: "Pure Logics",
+    location: "Lahore",
+    duration: "July 2025 - Sep 2026",
+    description:
+      "Worked as  Full Stack intern in Pure Logics and developing scalable web applications using React, Next.js, and Node.js.",
+    technologies: ["React", "Next.js", "TypeScript", "Node.js", "PostgreSQL", "Azure"],
+    color: "from-blue-500 to-purple-600",
+  },
+  
   
   
 ]

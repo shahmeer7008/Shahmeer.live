@@ -7,11 +7,12 @@ const techStack = [
   { name: "React js", icon: "⚛️", color: "from-blue-400 to-blue-600" },
   { name: "Next js", icon: "▲", color: "from-gray-700 to-gray-900" },
   { name: "TypeScript", icon: "TS", color: "from-blue-500 to-blue-700" },
-  { name: "Nod js", icon: "🟢", color: "from-green-400 to-green-600" },
+  { name: "Node js", icon: "🟢", color: "from-green-400 to-green-600" },
   { name: "Python", icon: "🐍", color: "from-yellow-400 to-yellow-600" },
   { name: "MongoDB", icon: "🍃", color: "from-green-500 to-green-700" },
   { name: "PostgreSQL", icon: "🐘", color: "from-blue-600 to-blue-800" },
   { name: "Azure", icon: "☁️", color: "from-orange-400 to-orange-600" },
+  { name: "Agentic AI(RAG)", color: "from-yellow-400 to-yellow-600" },
 ]
 
 export function TechStackCarousel() {

@@ -36,7 +36,7 @@ export default function About() {
             About <span className="text-primary">Me</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Passionate developer with a love for creating beautiful, functional, and user-centered digital experiences.
+            Passionate developer with a love for creating beautiful, functional and amazing UIs.
           </p>
         </motion.div>
 

@@ -13,13 +13,13 @@ const timelineData = [
   {
     year: "2023",
     title: "Teaching Assistant Role",
-    description: "Have been Teaching Assistant  of important courses like Programming Fundamentals, DSA and Algorithm Analysis in my university.Primary responsibilty was to assist professor in conducting labs,marking quizes and guiding srudents.",
+    description: "Have been Teaching Assistant  of important courses like Programming Fundamentals, DSA and Algorithm Analysis, Web technologies, ML in my university.Primary responsibilty was to assist professor in conducting labs,marking quizes and guiding students.",
     color: "from-green-400 to-green-600",
   },
   {
     year: "2024",
     title: "Full Stack Development",
-    description: "Got hands on with MERN and Next JS and built exciting Projects in MERN and Next JS",
+    description: "Got hands on with MERN and Next JS and built exciting Projects in MERN and Next JS.",
     color: "from-purple-400 to-purple-600",
   },
   {
@@ -28,6 +28,13 @@ const timelineData = [
     description: "Working as MERN Stack Intern in Pure Logics ,one of the premium sofware houses of Pakistan.",
     color: "from-orange-400 to-orange-600",
   },
+  {
+    year: "2025-26",
+    title: "AI Full Stack Developer",
+    description: "Worked as AI full stack developer at Remotebase, a freelance role where I leveraged LLMs, MERN , prompt engineering,  Gen AI and  Snapdev  to build full stack apps.",
+    color:"from-blue-500 to-blue-700",
+  }
+
 ]
 
 export function GrowthTimeline() {
