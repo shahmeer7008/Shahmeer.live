@@ -38,7 +38,7 @@ const projects = [
     id: "imaginex-ai",
     title: "ImagineX.ai",
     description: "My FYP ImagineX.ai is an AI powered multi agents (MERN+Langgraph) based SDLC automation web platform, selected for 10 Pearls FYP Accelerator Program and shortlisted in LUMS 3rd International AI Fest.",
-    image: "/images/imaginex.png?height=300&width=500",
+    image: "/images/imaginex.png",
     technologies: ["React", "Socket.io", "Node.js", "Express"],
     github: "https://github.com/shahmeer7008/",
     demo: "https://www.imaginex.dev/",
@@ -48,7 +48,7 @@ const projects = [
     id: "megaBlogger-platform",
     title: "Mega Blogging  Website",
     description: "A React blogging website using Local Storage and Tailwind",
-    image: "/blog01.png?height=400&width=700",
+    image: "/blog01.png",
     technologies: ["React", "Tailwind CSS"],
     github: "https://github.com/shahmeer7008/Mega-Blogger-App",
     demo: "https://mega-blogger-app.vercel.app/",
@@ -59,7 +59,7 @@ const projects = [
     id: "open-weather-app",
     title: "Open Weather App",
     description: "A weather app using Node js , Vanilla CSS, Open Weather API and Three JS to find weather of cities ",
-    image: "/images/weather_p5.png?height=300&width=500",
+    image: "/images/weather_p5.png",
     technologies: ["Node js", "Vanilla CSS", "Open Weather API", "Three JS"],
     github: "https://github.com/shahmeer7008/Open_Weather_App",
     demo: "https://open-weather-app-sepia.vercel.app/",
@@ -69,7 +69,7 @@ const projects = [
     id: "jira",
     title: "Jira 2.0",
     description: "A project management tool  using ASP.Net with three roles Admin , Project Manager and Team Member. In this application , we can create Projects, create  issues, track and prioritize issues and there can be real time communications  between project managers and team members using Signal R ",
-    image: "/images/jira_03.png?height=300&width=500",
+    image: "/images/jira_03.png",
     technologies: ["ASP.NET", "SignalR", "MVC", "Chart.js", "CSS3"],
     github: "https://github.com/shahmeer7008/MyJira",
     demo: "https://github.com/shahmeer7008/MyJira",
@@ -79,7 +79,7 @@ const projects = [
     id: "anesthesia-risk",
     title: "Anesthesia Risk Assessment System",
     description: "This system addresses the issue of anesthesia risks during oral surgery by automating extraction of patient intake data and applying standardized scoring systems (ASA, STOP-Bang, RCRI, METs) to generate consistent, evidence-based risk assessments.",
-    image: "/images/anesthesia_risk.png?height=300&width=500",
+    image: "/images/anesthesia_risk.png",
     technologies: ["HTML5", "CSS3", "JavaScript", "GSAP"],
     github: "https://github.com/shahmeer/portfolio-v1",
     demo: "https://portfolio-v1-demo.vercel.app",
@@ -89,7 +89,7 @@ const projects = [
     id: "content-moderator",
     title: "Content Moderator",
     description: "multiagent content moderator built using langraph and gradio that moderates content containing hate speech, voilence , nudity and promotional content",
-    image: "/images/content_rag_p7.png?height=300&width=500",
+    image: "/images/content_rag_p7.png",
     technologies: ["LangGraph", "Gradio", "Grok", "Prompt Engineering"],
     github: "https://github.com/shahmeer7008/MyContentModerator",
     demo: "https://huggingface.co/spaces/shahmeer7008/MyContentModerator",
@@ -100,7 +100,7 @@ const projects = [
     id: "Uplearn-lms",
     title: "UpLearn LMS",
     description:"A learning management system providing access to free and paid courses on different tech domains with excellent user experience.",
-    image: "/images/uplearn.png?height=300&width=500",
+    image: "/images/uplearn.png",
     technologies: ["Next.js", "React", "Tailwind CSS", "Vercel"],
     github: "https://github.com/shahmeer7008/UpLearn_LMS",
     demo: "https://github.com/shahmeer7008/UpLearn_LMS",
@@ -110,7 +110,7 @@ const projects = [
     id: "chat-app",
     title: "Real-time Chat App",
     description: "Real-time messaging application with rooms, file sharing, and emoji support.",
-    image: "/images/chatapp.png?height=300&width=500",
+    image: "/images/chatapp.png",
     technologies: ["React", "Socket.io", "Node.js", "Express"],
     github: "https://github.com/shahmeer/chatapp",
     demo: "https://github.com/shahmeer/chatapp",
@@ -120,7 +120,7 @@ const projects = [
     id: "Community-Resource-Hub",
     title: "Community Resource Hub",
     description: "Built using MERN and Node microservices that enables users to borrow, exchange, and sell items, fostering a community of help and sharing.",
-    image: "/images/CommunityResourceHub.png?height=300&width=500",
+    image: "/images/CommunityResourceHub.png",
     technologies: ["React", "Socket.io", "Node.js", "Express"],
     github: "https://github.com/shahmeer7008/CommunityResourceHub",
     demo: "https://github.com/shahmeer7008/CommunityResourceHub",
@@ -181,6 +181,7 @@ export default function Projects() {
         </motion.div>
       </div>
     </div>
+    
   )
 }
 
